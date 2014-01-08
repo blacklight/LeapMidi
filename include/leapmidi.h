@@ -26,9 +26,9 @@ public:
 
 class LeapListener : public Leap::Listener {
 private:
+	const int basenote;
 	SoundClient soundClient;
 	std::map<int, bool> playingNotes;
-	int basenote;
 	static const int notes[][3];
 
 	void doPlay(int note);

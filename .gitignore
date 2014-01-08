@@ -4,10 +4,13 @@
 *.o
 
 # Compiled Dynamic libraries
-*.so
 *.dylib
 
 # Compiled Static libraries
 *.lai
 *.la
 *.a
+
+# Output executable file
+leapmidi
+
